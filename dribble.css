@@ -1,0 +1,78 @@
+.head{
+    /* width: 100%; */
+    display: flex;
+    flex-direction: row;
+    /* background-color: rgb(12, 11, 12); */
+}
+
+.head > img{
+   object-position: top;
+   height: 20px;
+   margin-top: 20px;
+   /* width: 20px; */
+}
+
+
+.head > div{
+    /* background-color: rgb(206, 14, 14); */
+    height: 50px;
+    width: 100px;
+    color: rgb(100, 99, 99);
+    align-items: center;
+    text-align: center;
+    font-size: 15px;
+    font-family:Arial, Helvetica, sans-serif;
+    padding-top: 20px;
+    margin: 5px;
+    box-sizing: border-box;
+
+}
+.head > div:hover{
+    color: hotpink;
+}
+
+
+.sign-button{
+    float: right;
+}
+
+/* .body-image{
+    background-color: darkgray ;
+    font-size: 20px;
+} */
+
+#panel-img{
+    position: relative;
+    width: 100%;
+    height: 500px;
+    /* object-fit: cover; */
+}
+
+.content{
+    width: 35%;
+    position: absolute;
+    top: 150px;
+    left: 80px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+
+}
+
+.signup-button{
+    display: inline-block;
+    border: hotpink;
+    color: ivory;
+    /* margin: 10px; */
+    height: 30px;
+    width: 100px;
+    border-radius: 8px;
+    text-align: center;
+    background-color: rgb(236, 135, 186);
+    font-size: 15px;
+    padding-top: 10px;
+}
+
+.sign-button:hover{
+    cursor: pointer;
+
+}
