@@ -5,7 +5,6 @@
     justify-content:space-between;
     align-items: center;
     width: 70%;
-    /* background-color: rgb(12, 11, 12); */
 }
 
 .head > img{
@@ -17,9 +16,8 @@
 }
 
 .head > div{
-    /* background-color: rgb(206, 14, 14); */
     display: flex;
-    height: 50px;
+    height: 70px;
     /* width: 50%; */
     color: rgb(100, 99, 99);
     align-items:center;
@@ -55,6 +53,116 @@
     object-position: top;
     height: 20px;
     border: solid 2px rgb(212, 212, 212);
+}
+.dropdown-button{
+    position: relative;
+}
+.dropdown{
+    display:inline-block;
+    cursor: pointer;
+    /* padding: relative; */
+    padding: 16px;
+}
+
+.dropdown-content{
+    display: none;
+    position: absolute;
+    box-shadow: 2px gray;
+    background-color: rgba(248, 231, 239, 100);
+    box-shadow:2px, rgb(31, 31, 31);
+    border: 2px, solid gray;
+    z-index: 1;
+    border-radius: 8px;
+    margin-top: 10px;
+    padding: auto;
+    text-align: left;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    justify-content: space-between;
+}
+
+.dropdown-content a{
+    display: block;
+    padding: 16px;
+    color:rgb(88, 88, 88)   ;
+    width: 200px;
+    height: 8px;
+    border-radius: 10px;
+    
+}
+
+.dropdown:hover .dropdown-content { 
+  display: flex;
+  justify-content:space-evenly;
+  
+}
+.explore-container{
+    width:60%;
+    border-radius: 12px;
+    background-color: rgb(253, 253, 253);
+    font-size: 15px;
+    font-weight: 500;
+} 
+.browse-container{
+    width: 40%;
+    border-radius: 12px;
+    background-color: rgb(233, 233, 233); 
+}
+.dropdown-content a:hover{
+    background-color: rgb(245, 198, 221);
+    width:initial;
+}
+
+/* .fw-button{
+    position: relative;
+} */
+.findwork{
+    display:inline-block;
+    cursor: pointer;
+    padding: 16px;
+}
+
+.fw{
+    display: none;
+    position: absolute;
+    background-color: rgb(245, 245, 245); 
+    box-shadow:2px, rgb(31, 31, 31);
+    border: 2px, solid gray;;
+    z-index: 1;
+    border-radius: 12px;
+    margin-top: 10px;
+    padding: auto;
+    text-align: left;
+    font-family:Arial, Helvetica, sans-serif;
+
+}
+
+.findwork:hover .fw {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    height: 180px;
+    box-shadow: 5px rgb(20, 20, 20);
+    /* justify-content: space-evenly; */
+}
+
+
+.fw a{
+    display: block;
+    padding: 12px 16px;
+    color:rgb(100, 100, 100);
+    font-family: Arial, Helvetica, sans-serif;
+    height: 70px;
+    border-radius: 12px;
+}
+
+.fw a:hover{
+    display: block;
+    background-color: rgb(245, 198, 221);
+}
+.fw-li{
+    list-style: none;
+    border-radius: 12px;
 }
 
 #panel-img{
@@ -114,12 +222,6 @@ a.sign-button{color: rgb(100, 99, 99);}
 
 }
 
-/* .select-photo-type-container{
-    display: inline;
-    justify-content: center;
-    align-items: center;
-
-} */
 #options{
     width: 100px;
     height: 30px;
@@ -168,11 +270,11 @@ a.sign-button{color: rgb(100, 99, 99);}
 }
 
 .column{
-    display: grid
-    flex-direction: row;
-    
+    display: grid;
+    flex-direction: row; 
 }
-.column img{
+
+.column img{    
     vertical-align: middle;
     height: 225px;
     width: 280px;
@@ -183,7 +285,6 @@ a.sign-button{color: rgb(100, 99, 99);}
     padding: 10px;
     cursor: pointer;
     
-    
-}
 
+} 
 
